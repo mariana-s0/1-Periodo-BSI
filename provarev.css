@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: linear-gradient(135deg, #4C30B7, #B662D4);
+}
+header{
+    background-color:#4C30B7;
+    width: 100%;
+    color:aliceblue;
+    border-top: 2px solid ;
+    border-left: 2px solid;
+    display:block;
+    
+    
+}
+
+div{
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+ 
+} 
+.home{
+    border-left: 10px solid;
+    display:inline-block; 
+}
+span{
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+.btn{
+    border: 3px solid ;
+
+}
+
