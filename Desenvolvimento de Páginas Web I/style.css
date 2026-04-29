@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div div div{
+    background-color: blue;
+ }
+section#main > div.base + footer{
+ }
+.div + span.div > div.span + p.br{ 
+}

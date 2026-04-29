@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div + span.div > div.span + p.br{
+   background-color: aqua; 
+ }

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #37a1f2;
+    width: 400px ;
+    margin-left: 750px;
+    margin-top: 150px;
+}
+#borda{
+    border-radius: 20px;
+    border: black  6px solid ;
+   
+   
+}
+#branca{
+    border-radius: 15px;
+    background-color: white;
+    padding: 70px 90px 50px;
+}
+#barbacena{
+    
+    font-size: 30px;
+    text-align: center;
+   
+}
+#noite{
+    text-align: center;
+    font-style: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 13px;
+    
+}
+#noite2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+    display: inline-block;
+    
+}
+#azul{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#37a1f2;
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 4px 2px 2px #333 ;
+    margin-bottom: 20px;
+}
+#branco{
+    border-radius: 50px;
+    width: 70px;
+    height: 75px;
+    background-color: white;
+}
+
+#graus{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 5px;
+}
+#quinze{
+   margin-left: 50px;
+    border-right: solid 2px black;
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 25px;
+    
+
+}
+#vintecinco{
+    display: inline-block;
+    padding-left: 5px; 
+    font-size: 25px;  
+    
+}
+#bordabaixa{
+    border-bottom: 2px solid black;
+    margin-top: 14px;
+}
+#sab{
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+#quinze2{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+}
+#dom{
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+#treze{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+}
+#seg{
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+#quatorze{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+}
