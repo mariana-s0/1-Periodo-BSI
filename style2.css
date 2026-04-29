@@ -1,9 +1,0 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-section#main > div.base + footer{ 
-    background-color: blue;
-}
-
-
