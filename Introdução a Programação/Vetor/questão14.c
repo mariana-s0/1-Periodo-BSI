@@ -1,43 +1,28 @@
-/*Questão 08
-Um professor deseja verificar se uma sequência de números digitada pelos alunos já está em ordem 
-crescente. Faça um programa que:
-• Leia 10 números inteiros 
-• Armazene os números em um vetor 
-• Verifique se os valores estão em ordem crescente 
-• Mostre uma mensagem informando se o vetor está ou não ordenado*/
+/*Questão 14
+Um sistema registra as últimas 10 senhas digitadas incorretamente para análise de segurança.
+Faça um programa que:
+• Leia 10 números representando tentativas de senha 
+• Armazene em um vetor 
+• Verifique se alguma senha foi digitada duas vezes seguidas 
+• Mostre a posição onde isso ocorreu*/
 
 #include <stdio.h>
-#define TAMANHO 10
-
-int verificaVetorOrdenado(int vet[],int tamanho){
-    int i,ordenado=1;
-    for(i=0;i<tamanho-1;i++){
-        if(v[i]>v[i+1]){
-            ordenado=0;
-            break;
-        }
-    }
-    return ordenado;
-}
-
+#define TAMANHO 5
 int main(){
-    int v[TAMANHO],ordenado=1,i;
+    int v[TAMANHO],errou=0,i;
     for(i=0;i<TAMANHO-1;i++){
         printf("\nForneça um número:\n");
         scanf("%d",v[i]);
     }
 
-    //Verificando se está ordenado
+    //Verificando se ocorreu erro
     for(i=0;i<TAMANHO-1;i++){
-        if(v[i]>=v[i+1]){
-            ordenado=0;
-            break;
+        if(v[i]==v[i+1]){
+            printf("\nErros nas posições %d e %d\n",i,i+1);
+            errou=1;
         }
     }
-    /*for(i=0;i<TAMANHO-1 && ordenado==1;i++){
-        if(v[i]<=v[i+1]){
-            ordenado=0;   
-        }
-    }*/
+    if(errou==0)
+    printf("\nNão ocorreu erro!!\n");
     return 0;
 }
