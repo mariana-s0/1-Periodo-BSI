@@ -24,7 +24,7 @@ int main(){
     int v[TAMANHO],ordenado=1,i;
     for(i=0;i<TAMANHO-1;i++){
         printf("\nForneça um número:\n");
-        scanf("%d",v[i]);
+        scanf("%d",&v[i]);
     }
 
     //Verificando se está ordenado
