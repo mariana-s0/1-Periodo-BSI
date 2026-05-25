@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+:root{
+    --largura:50%;
+}
+section{
+    display: flex;
+    height:100vh;
+}
+.A{
+    background-color: blue;
+    width: var(--largura);
+    height: var(--altura);
+    margin-left: calc(50% var(--altura));
+}
+.B{
+    background-color: green;
+    width: calc(var(--largura)/2);
+   
+}
+.C{
+    background-color: red;
+    width: calc(100% - var(--largura) - calc(var(--largura)/2));
+}
