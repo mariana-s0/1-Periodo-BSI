@@ -36,7 +36,7 @@ void limpaBuffer(){
     int sair,i,achou,t;
     char novoNome[TAMANHO_NOME];
    do{
-        printf("Forneça o nom e:");
+        printf("Forneça o nome:");
         fgets(novoNome,TAMANHO_NOME,stdin);
         t=strlen(novoNome);
         if(novoNome[t-1]=='\n')
