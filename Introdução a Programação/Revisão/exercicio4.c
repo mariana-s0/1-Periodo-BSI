@@ -62,7 +62,7 @@ void limpaBuffer(){
         else
             printf("\nNome Repetido!!!\n");
         if(*quantidade<tamanho){
-            printf("Deseja continuar comn o cadastro? 1-Sim e 2-Não:");
+            printf("Deseja continuar com o cadastro? 1-Sim e 2-Não:");
             scanf("%d",&sair);
             limpaBuffer();
         }
