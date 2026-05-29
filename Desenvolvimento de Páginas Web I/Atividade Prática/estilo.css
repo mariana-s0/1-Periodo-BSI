@@ -1,0 +1,70 @@
+body{
+    margin: 40px;
+}
+main{
+    display: flex;  
+}
+.chat{
+    background-color: rgb(249, 248, 248);  
+    padding: 20px; 
+}
+p{
+    color: rgb(107, 107, 107);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+p + div{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid 2px gray;
+    padding: 20px;
+    margin-left: 10px;
+}
+div > h3 + div{
+    color: gray;
+}
+p + div + div{
+    background-color: rgb(181, 180, 180);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+p + div + div + div{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid 2px rgb(178, 178, 178);
+    padding: 15px;
+    margin-bottom: 40px;
+}
+p + div + div + div + div > span{
+    background-color: rgb(84, 84, 84);
+    padding: 6px;
+    color: white;
+
+}
+section + section {
+    padding: 40px;
+    width: 500px;
+
+}
+section + section > h4 {
+    margin-bottom: 40px;
+}
+h4 + h1 + div{
+    margin-top: 40px;
+}
+h4 + h1 + div > span{
+    font-weight: bold;
+}
+h4 + h1 + div + div{
+    margin-top: 40px;
+} 
+h4 + h1 + div + div > span {
+    font-weight: bold;
+}
+h4 + h1 + div + div + div{
+    margin-top: 40px;
+}
+
