@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+}
+header{
+    text-align: center;
+}
+p{
+    display: none;
+}
+#a{
+    background-color: brown;
+    width: 50%;
+}
+#b{
+    background-color: blue;
+    width: 50%;
+}
+@media (orientation: portrait){
+    #b{
+        display: none;
+    }
+    #a{
+        width: 100%;
+    }
+}
+@media (orientation: landscape){
+    header{
+        display: none;
+    }
+}
+@media print{
+    p{
+        display: block;
+    }
+}
+
+
